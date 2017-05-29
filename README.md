@@ -7,11 +7,13 @@
 <script>mermaid.initialize({startOnLoad:true});</script>
 
 <div id="mermaid" class="mermaid">
+<![CDATA[
 sequenceDiagram
     participant John
     participant Alice
     Alice->>John: Hello
     John, how are you?
     John-->>Alice: Great!
+]]>
 </div>
 
