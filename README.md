@@ -7,6 +7,7 @@
 <script>mermaid.initialize({startOnLoad:true});</script>
 
 <div id="mermaid" class="mermaid">
+
 <![CDATA[
 sequenceDiagram
     participant John
