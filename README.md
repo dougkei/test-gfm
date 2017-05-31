@@ -7,7 +7,13 @@
 <script>mermaid.initialize({startOnLoad:true});</script>
 
 <div class="mermaid">
-graph LR
-    A --- B
+sequenceDiagram
+    activate Douglas
+    Douglas->>+Tony: Hello Tony, how are you?
+    Tony->>+Keith: Hello Keith, how are you?
+    Keith-->>-Tony: Great!
+    Tony-->>-Douglas: Great!
+    Douglas->>+Keith: Hello Keith, how are you?
+    Keith-->>-Douglas: Great
+    deactivate Douglas
 </div>
-
